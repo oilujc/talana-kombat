@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  app:
+    container_name: app
+    build: .
+    volumes:
+      - .:/code
+    command: uvicorn main:app --host 0.0.0.0 --port 8100 --reload
+    ports:
+      - "8100:8100"
+    image: app-image
+    networks:
+      - app-network
+
+networks:
+  app-network:

@@ -1,6 +1,19 @@
 
 # Talana Kombat
 
+## File Structure
+
+- app
+    - main.py
+    - schemas.py
+    - player.py
+    - talana_kombat.py
+    - requirements.txt
+    - Dockerfile
+    - docker-compose.yml
+    - test_main.py
+    
+
 ## Build
 
 To build the project, run the following command

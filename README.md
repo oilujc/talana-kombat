@@ -3,16 +3,18 @@
 
 ## File Structure
 
-- app
-    - main.py
-    - schemas.py
-    - player.py
-    - talana_kombat.py
-    - requirements.txt
-    - Dockerfile
-    - docker-compose.yml
-    - test_main.py
-    
+```bash
+
+  - main.py
+  - schemas.py
+  - player.py
+  - talana_kombat.py
+  - requirements.txt
+  - Dockerfile
+  - docker-compose.yml
+  - test_main.py
+      
+```
 
 ## Build
 
